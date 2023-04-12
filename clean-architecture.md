@@ -1,6 +1,5 @@
 ---
 marp: true
-paginate: true
 ---
 
 # Clean Architecture 1부 (1 ~ 15장)
