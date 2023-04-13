@@ -354,6 +354,8 @@ function changeState(state, val) {
 > 더 안정적인 방향으로 의존하라.
 
 변경이 쉽지 않은 컴포넌트가 변경이 예상되는 컴포넌트에 의존하게 만들어서는 안된다. 의존하게 되면 변동성이 큰 컴포넌트도 결국 변경이 어려워진다.
+![](./images/SDP-example.jpeg)
+![width:600px](./images/SDP-example2.png)
 
 ---
 
@@ -365,6 +367,8 @@ function changeState(state, val) {
   > I = Fan-out / (Fan-in + Fan-out)
 
 **SDP 원칙에 따라 의존성 방향으로 갈 수록 I 값은 감소해야 한다!**
+
+![](./images/SDP-point.png)
 
 ---
 
